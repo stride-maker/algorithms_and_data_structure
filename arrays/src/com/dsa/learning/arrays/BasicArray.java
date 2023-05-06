@@ -1,6 +1,6 @@
 package com.dsa.learning.arrays;
 
-public class Main {
+public class BasicArray {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ public class Main {
             System.out.println(intArray[i]);
         }
 
-        // Fetching the index of element 
+        // Fetching the index of element
         // Complexity is O(n)
         int index = -1;
         for(int i = 0; i < intArray.length; i++) {
